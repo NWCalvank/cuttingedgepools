@@ -1,0 +1,155 @@
+/* Hero */
+.hero {
+	height: 1039px;
+	background-attachment:fixed;
+	background-image:url(../../images/landing/Jumping%20Child.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top;
+}
+.logo-overlay {
+	text-align: center;
+	padding: 200px 0px;
+}
+.logo-overlay  img {
+	background-color: rgba(86, 145, 203, 0.5);
+	border-radius: 30px;
+}
+.visible-sm .logo-overlay {
+	padding-bottom: 281px;
+}
+.visible-xs .logo-overlay {
+	padding-bottom: 381px;
+}
+.cta-hero {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 200px 0px 0px 0px;
+}
+.cta-hero .btn {
+	margin: 30px;
+}
+.tagline h2 {
+	color: #275480;
+	font-weight:100;
+	padding: 10px 0px 0px 0px;
+	font-size: 350%;
+	text-align:center;
+}
+
+/* Call to Action Buttons */
+.cta {
+	clear: both;
+	height: auto;
+	padding: 0px 0px;
+	text-align: center;
+}
+.cta-one :hover,
+.cta-three :hover {
+	box-shadow: 0px 0px 8px #5691cb;
+	border-radius: 8px;
+}
+.cta-two :hover {
+	box-shadow: 0px 0px 8px #CB9E56;
+	border-radius: 8px;
+}
+.cta-one-content,
+.cta-two-content,
+.cta-three-content {
+	padding: 20px 0px;
+}
+.cta-one-content :hover,
+.cta-two-content :hover,
+.cta-three-content :hover {
+	box-shadow: 0px 0px 0px #FFF;
+}
+
+/* Tier Two */
+.tier-two {
+	clear: both;
+	margin-top: 20px;
+	text-align: center;
+}
+.tier-two-image {
+	background-image:url(../../images/artwork/Waves%20Wide.jpeg);
+	background-position:top;
+	background-size:cover;
+	height: 300px;
+}
+.options {
+	background-color: #e8eeff;
+	height: auto;
+}
+.options h2 {
+	color: #5691cb;
+	font-weight:100;
+	font-size:350%;
+}
+.quote-req {
+	background-color: #e8eeff;
+	height: auto;
+}
+.btn-quote {
+	padding: 25px 0px;
+}
+
+/* Tier Three */
+.tier-three {
+	padding: 0px 0px 30px 0px;
+	margin: 20px 0px;
+}
+.tier-three h3 {
+	text-align: center;
+}
+/* Tier Three: Slider */
+#slider {
+	border: solid 16px #5691cb;
+	border-radius: 12px;
+    width: 540px;
+    height: 360px;
+    overflow: hidden;
+	position: relative;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 540px;
+    height: 360px;
+}
+#slider .slide img {
+	height: 100%;
+}
+.slider-overlay {
+	text-align:center;
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slider-text {
+	background-color: rgba(255,255,255,0.60);
+	font-size: 230%;
+	font-weight: 100;
+	letter-spacing: 2.5px;
+}
+/* Call to Action: Bottom */
+.cta-bottom {
+	background-color: #F9F9F9;
+	padding: 20px 0px;
+}
+.cta-bottom-right {
+	text-align: center;
+	padding: 30px 0px;
+}
+.cta-bottom-right .btn {
+	margin-left: 15px;
+}

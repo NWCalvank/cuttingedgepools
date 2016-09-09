@@ -1,0 +1,203 @@
+/* Hero Image */
+
+#ourWork .hero {
+	background-image:url(../../images/landing/Child%20Carry%20Sunlight.jpeg);
+	background-position: top;
+	background-size: cover;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+#ourWork .hero-header {
+	padding: 85px 0px 55px 0px;
+	color: #fff;
+}
+#ourWork .hero-header h1 {
+	font-size: 400%;
+	font-weight: 200;
+	text-transform:uppercase;
+}
+#ourWork .hero-cta a,
+#ourWork .hero-cta a:hover,
+#ourWork .hero-cta a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+#ourWork .cta-btn-1 {
+	margin: 60px 0px 20px 0px;
+}
+#ourWork .hero img {
+	display: none;
+}
+@media only screen and (min-width : 768px) {
+#ourWork .hero-header {
+	padding: 135px 0px 55px 0px;
+}
+#ourWork .hero-header h1 {
+	font-size: 600%;
+}
+#ourWork .hero-header h3 {
+	font-size: 300%;
+}
+#ourWork .hero img {
+	display: inline;
+	margin: 120px 0px 20px 0px;
+	width: 100px;
+	height: 100px;
+}
+#ourWork .cta-btn-1 {
+	display: none;
+}
+    }
+@media only screen and (min-width : 992px) {
+#ourWork .hero-header {
+	padding: 185px 0px 55px 0px;
+}
+#ourWork .hero-header h1 {
+	font-size: 700%;
+}
+#ourWork .hero-header h3 {
+	font-size: 300%;
+}
+#ourWork .hero img {
+	margin: 225px 0px 30px 0px;
+	width: 130px;
+	height: 130px;
+}
+    }
+/* Pools */
+#pools h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+#ourWork .section-top {
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+#ourWork .section-header {
+
+}
+#ourWork .content {
+	
+}
+#ourWork .image {
+	color: #fff;
+	background-size: cover;
+	background-position:center;
+	height: auto;
+	text-align: center;
+}
+#ourWork .image h3 {
+	font-size: 200%;
+	font-weight:600;
+	text-transform:uppercase;
+	padding: 150px 0px;
+	margin: 0px;
+}
+#ourWork .liners .image {
+	background-image:url(../../images/landing/Goggles%20Blue%20Water.jpeg);
+}
+#ourWork .water .image {
+	background-image:url(../../images/artwork/Water%20Splash.jpeg);
+}
+#ourWork .safety .image {
+	background-image:url(../../images/artwork/Dogs%20Running%20Stick%20Water.jpeg);
+}
+#ourWork .safety {
+	clear: both;
+}
+@media only screen and (min-width : 480px) {
+#ourWork .image h3 {
+	font-size: 300%;
+	font-weight:700;
+}
+}
+@media only screen and (min-width : 768px) {
+#ourWork .image h3 {
+	font-size: 350%;
+	font-weight:800;
+}
+}
+@media only screen and (min-width : 992px) {
+#ourWork .image {
+	border: solid 1px #fff;
+}
+#ourWork .image h3 {
+	font-size: 400%;
+	font-weight:900;
+}
+    }
+/* Landscape */
+#landscape h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+#ourWork .walls .image {
+	background-image:url(../../images/artwork/Boy%20on%20Ledge.jpeg);
+}
+#ourWork .concrete .image {
+	background-image:url(../../images/artwork/Drawing%20on%20Concrete%20Desaturated.jpeg);
+}
+@media only screen and (min-width : 768px) {
+#ourWork .walls .image {
+	background-position: bottom;
+}
+}
+@media only screen and (min-width : 992px) {
+#ourWork .walls .image h3 {
+	padding: 280px 0px;
+}
+#ourWork .concrete .image {
+	background-attachment: scroll;
+}
+#ourWork .concrete .image h3 {
+	padding: 280px 0px;
+}
+    }
+/* Patios */
+#patios h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+#ourWork .driveways .image {
+	background-image:url(../../images/artwork/Driveway%20Red%20Door%20Bicycle.jpeg);
+}
+#ourWork .walkways .image {
+	background-image:url(../../images/landing/Feet%20Walking%20on%20Sidewalk.jpeg);
+}
+#ourWork .porches .image {
+	background-image:url(../../images/artwork/Man%20Beach%20Tropical%20Tree.jpeg);
+	background-position:bottom;
+}
+#ourWork .porches {
+	clear: both;
+}
+#ourWork .porches a,
+#ourWork .porches a:hover,
+#ourWork .porches a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+#ourWork .porches .cta-btn-1 {
+	margin: 10px 0px 10px 0px;
+}
+#ourWork .porches .bottom-cta {
+	background-color:rgba(0,0,0,0.80);
+	border-top: solid 2px #000;
+	color: #FFF;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+#ourWork .porches .bottom-cta p {
+	text-transform: capitalize;
+}
+@media only screen and (min-width : 768px) {
+#ourWork .porches .bottom-cta {
+	display: none;
+}
+}
+@media only screen and (min-width : 992px) {
+#ourWork .porches .image h3 {
+	padding: 220px 0px;
+}
+}

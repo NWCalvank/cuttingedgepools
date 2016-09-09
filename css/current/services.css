@@ -1,0 +1,183 @@
+/* Hero Image */
+
+#services .hero {
+	background-image: url(../../images/landing/young%20woman%20arms%20out%20tropical.jpeg);
+	background-position: top;
+	background-size: cover;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+#services .hero-header {
+	padding: 10px 0px 10px 0px;
+	color: #fff;
+}
+#services .hero-header h1 {
+	font-size: 400%;
+	font-weight: 200;
+	text-transform:uppercase;
+}
+#services .hero-cta a,
+#services .hero-cta a:hover,
+#services .hero-cta a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+#services .cta-btn-1 {
+	margin: 180px 0px 20px 0px;
+}
+#services .hero img {
+	display: none;
+}
+@media only screen and (min-width : 768px) {
+#services .hero-header {
+	padding: 10px 0px 10px 0px;
+}
+#services .hero-header h1 {
+	font-size: 600%;
+}
+#services .hero-header h3 {
+	font-size: 300%;
+}
+#services .hero img {
+	display: inline;
+	margin: 290px 0px 20px 0px;
+	width: 100px;
+	height: 100px;
+}
+#services .cta-btn-1 {
+	display: none;
+}
+    }
+@media only screen and (min-width : 992px) {
+#services .hero-header {
+	padding: 10px 0px 10px 0px;
+}
+#services .hero-header h1 {
+	font-size: 700%;
+}
+#services .hero-header h3 {
+	font-size: 300%;
+}
+#services .Hero img {
+	margin: 445px 0px 30px 0px;
+	width: 130px;
+	height: 130px;
+}
+    }
+/* Design */
+#design {
+	
+}
+#services .section-top {
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+#services .section-header {
+
+}
+#services .section-header h2 {
+	font-size: 300%;
+}
+#services .content {
+	
+}
+#services .image {
+	color: #fff;
+	background-size: cover;
+	background-position:center;
+	height: auto;
+	text-align: center;
+}
+#services .image h3 {
+	font-size: 200%;
+	font-weight:600;
+	text-transform:uppercase;
+	padding: 150px 0px;
+	margin: 0px;
+}
+#services .pool .image {
+	background-image:url(../../images/your%20year%20raw/Jumping%20into%20Kiddie%20Pool.jpeg);
+}
+#services .concrete .image {
+	background-image:url(../../images/artwork/Drawing%20on%20Concrete%20Desaturated.jpeg);
+}
+#services .backyard .image {
+	background-image: url(../../images/landing/Blurred%20Backyard.jpeg);
+}
+#services .backyard {
+	clear: both;
+}
+@media only screen and (min-width : 480px) {
+#services .image h3 {
+	font-size: 300%;
+	font-weight:700;
+}
+}
+@media only screen and (min-width : 768px) {
+#services .image h3 {
+	font-size: 350%;
+	font-weight:800;
+}
+}
+@media only screen and (min-width : 992px) {
+#services .image {
+	border: solid 1px #fff;
+}
+#services .image h3 {
+	font-size: 400%;
+	font-weight:900;
+}
+    }
+/* Build */
+#build {
+	
+}
+#services .installation .image {
+	background-image: url(../../images/artwork/Sanctuary%20Girl.jpeg)
+}
+#services .maintenance .image {
+	background-image:url(../../images/artwork/Maintenance%20Poolside.jpeg);
+}
+@media only screen and (min-width : 768px) {
+#services .installation .image {
+	background-position: bottom;
+}
+}
+@media only screen and (min-width : 992px) {
+#services .installation .image h3 {
+	padding: 280px 0px;
+}
+#services .installation .image {
+	background-attachment: fixed;
+}
+#services .maintenance .image h3 {
+	padding: 280px 0px;
+}
+    }
+/* Renovate */
+#renovate {
+	
+}
+#services .landscape .image {
+	background-image:url(../../images/artwork/Boy%20on%20Ledge.jpeg);
+}
+#services .driveways .image {
+	background-image:url(../../images/artwork/Outdated%20Driveway.jpeg);
+}
+#services .inspiration .image {
+	background-image:url(../../images/artwork/Big%20Project.jpg);
+}
+#services .inspiration {
+	clear: both;
+}
+@media only screen and (min-width : 768px) {
+#services .inspiration .image p {
+	display: none;
+}
+}
+@media only screen and (min-width : 992px) {
+#services .inspiration .image h3 {
+	padding: 220px 0px;
+}
+}
