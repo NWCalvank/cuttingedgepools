@@ -1,0 +1,58 @@
+.cta-hero {
+	border-bottom: solid 2px #525252;
+	text-align: center;
+	background-color: rgba(82,82,82, 0.9);
+	margin: 0px 0px 0px 0px;
+}
+@media (min-width: 768px) {
+	.cta-hero {
+	text-align: center;
+	background-color: rgba(82,82,82, 0.9);
+	margin: 0px 0px 0px 0px;
+}
+}
+@media (min-width: 992px) {
+	.cta-hero {
+	display: none;
+	text-align: center;
+	background-color: rgba(82,82,82, 0.9);
+	margin: 0px 0px 0px 0px;
+}
+}
+@media (min-width: 1200px) {
+	.cta-hero {
+	text-align: center;
+	background-color: rgba(82,82,82, 0.9);
+	margin: 0px 0px 0px 0px;
+}
+}
+.cta-hero .btn {
+	margin: 20px;
+}
+.tagline {
+	clear: both;
+	margin: 15px 0px;
+	padding: 8px 0px;
+	text-align:center;
+}
+.tagline h2 {
+	color: #275480;
+	font-weight:100;
+	padding: 0px 0px 0px 0px;
+	font-size: 200%;
+	margin: 10px 0px;
+}
+@media (min-width: 992px) {
+.tagline {
+	clear: both;
+	margin: 5px 0px;
+	padding: 25px 0px;
+	text-align:center;
+}
+.tagline h2 {
+	color: #275480;
+	font-weight:100;
+	padding: 0px 0px 0px 0px;
+	font-size: 350%;
+}
+}

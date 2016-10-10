@@ -1,0 +1,46 @@
+#patios h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+.driveways .image {
+	background-image:url(../../../../images/artwork/Driveway%20Red%20Door%20Bicycle.jpeg);
+}
+.walkways .image {
+	background-image:url(../../../../images/landing/Feet%20Walking%20on%20Sidewalk.jpeg);
+}
+.porches .image {
+	background-image:url(../../../../images/artwork/Man%20Beach%20Tropical%20Tree.jpeg);
+	background-position:bottom;
+}
+.porches {
+	clear: both;
+}
+.porches a,
+.porches a:hover,
+.porches a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+.porches .cta-btn-1 {
+	margin: 10px 0px 10px 0px;
+}
+.porches .bottom-cta {
+	background-color:rgba(0,0,0,0.80);
+	border-top: solid 2px #000;
+	color: #FFF;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+.porches .bottom-cta p {
+	text-transform: capitalize;
+}
+@media only screen and (min-width : 768px) {
+.porches .bottom-cta {
+	display: none;
+}
+}
+@media only screen and (min-width : 992px) {
+.porches .image h3 {
+	padding: 220px 0px;
+}
+}

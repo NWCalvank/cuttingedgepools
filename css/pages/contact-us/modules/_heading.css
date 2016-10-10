@@ -1,0 +1,21 @@
+.heading {
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.image {
+	color: #fff;
+	background-size: cover;
+	background-position:center;
+	height: auto;
+	text-align: center;
+}
+.image h1 {
+	font-size: 400%;
+	font-weight:900;
+	text-transform:uppercase;
+	padding: 150px 0px;
+	margin: 0px;
+}
+.heading .image {
+	background-image:url(../../../../images/landing/Swimmer%20with%20Goggles.jpeg);
+}

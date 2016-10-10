@@ -1,0 +1,37 @@
+.image {
+	background-size: cover;
+	background-position:center;
+	height: auto;
+	text-align: center;
+}
+.image a {
+	color: #fff;
+	text-decoration: none;
+}
+.image h3 {
+	font-size: 120%;
+	font-weight:600;
+	text-transform:uppercase;
+	padding: 150px 0px;
+	margin: 0px;
+}
+@media only screen and (min-width : 480px) {
+.image h3 a {
+	font-weight:700;
+}
+}
+@media only screen and (min-width : 768px) {
+.image h3 a {
+	font-size: 150%;
+	font-weight:800;
+}
+}
+@media only screen and (min-width : 992px) {
+.image {
+	border: solid 1px #fff;
+}
+.image h3 a {
+	font-size: 200%;
+	font-weight:900;
+}
+    }

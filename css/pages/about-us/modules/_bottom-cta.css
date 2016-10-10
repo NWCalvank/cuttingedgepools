@@ -1,0 +1,29 @@
+.quality a,
+.quality a:hover,
+.quality a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+.quality .cta-btn {
+	margin: 10px 20px;
+}
+.quality .bottom-cta {
+	background-color:rgba(0,0,0,0.80);
+	border-top: solid 2px #000;
+	color: #FFF;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+.quality .bottom-cta p {
+	text-transform: capitalize;
+}
+@media only screen and (min-width : 768px) {
+.bottom-cta {
+	display: none;
+}
+}
+@media only screen and (min-width : 992px) {
+.quality .image h3 {
+	padding: 220px 0px;
+}
+}

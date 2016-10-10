@@ -1,0 +1,65 @@
+.hero {
+	background-image:url(../../../../images/landing/Child%20Carry%20Sunlight.jpeg);
+	background-position: top;
+	background-size: cover;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.hero-header {
+	padding: 85px 0px 55px 0px;
+	color: #fff;
+}
+.hero-header h1 {
+	font-size: 400%;
+	font-weight: 200;
+	text-transform:uppercase;
+}
+.hero-cta a,
+.hero-cta a:hover,
+.hero-cta a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+.cta-btn-1 {
+	margin: 60px 0px 20px 0px;
+}
+.hero img {
+	display: none;
+}
+@media only screen and (min-width : 768px) {
+.hero-header {
+	padding: 135px 0px 55px 0px;
+}
+.hero-header h1 {
+	font-size: 600%;
+}
+.hero-header h3 {
+	font-size: 300%;
+}
+.hero img {
+	display: inline;
+	margin: 120px 0px 20px 0px;
+	width: 100px;
+	height: 100px;
+}
+.cta-btn-1 {
+	display: none;
+}
+    }
+@media only screen and (min-width : 992px) {
+.hero-header {
+	padding: 185px 0px 55px 0px;
+}
+.hero-header h1 {
+	font-size: 700%;
+}
+.hero-header h3 {
+	font-size: 300%;
+}
+.hero img {
+	margin: 225px 0px 30px 0px;
+	width: 130px;
+	height: 130px;
+}
+    }

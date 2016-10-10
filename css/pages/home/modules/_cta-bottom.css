@@ -1,0 +1,29 @@
+.cta-bottom {
+	display: none;
+}
+@media (min-width: 992px) {
+.cta-bottom {
+	display: block;
+	background: #EDEDED;
+	background: -webkit-linear-gradient(#fff, #EDEDED); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #EDEDED); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #EDEDED); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #EDEDED); /* Standard syntax */
+	padding: 10px 0px 0px 0px;
+}
+.cta-bottom-content {
+	background-color: #F9F9F9;
+	border-top: solid 1px #000;
+	border-right: solid 1px #000;
+	border-left: solid 1px #000;
+	border-radius: 20px 20px 0px 0px;
+	padding: 20px 0px;
+}
+.cta-bottom-right {
+	text-align: right;
+	padding: 30px 0px;
+}
+.cta-bottom-right .btn {
+	margin-left: 15px;
+}
+}

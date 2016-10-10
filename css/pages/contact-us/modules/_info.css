@@ -1,0 +1,42 @@
+.owner,
+.phone,
+.email {
+	margin: 30px;
+}
+.sub-heading h2 {
+	margin: 0px;
+}
+.info {
+	
+}
+.phone .text {
+	float: left;
+}
+.phone .button {
+	float: right;
+	margin: 20px 0px 0px 0px;
+	text-decoration:none;
+}
+.phone .button a {
+	text-decoration: none;
+	color: #fff;
+}
+.email {
+	clear: both;
+	padding-top: 30px;
+}
+@media only screen and (min-width : 768px) {
+.button {
+	display: none;
+}
+.owner,
+.phone,
+.phone .text,
+.email {
+	float: none;
+	text-align: center;
+}
+.email {
+	padding: 0px;
+}
+    }

@@ -1,0 +1,61 @@
+#pools h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+.section-top {
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+.section-header {
+
+}
+.content {
+	
+}
+.image {
+	color: #fff;
+	background-size: cover;
+	background-position:center;
+	height: auto;
+	text-align: center;
+}
+.image h3 {
+	font-size: 200%;
+	font-weight:600;
+	text-transform:uppercase;
+	padding: 150px 0px;
+	margin: 0px;
+}
+.liners .image {
+	background-image:url(../../../../images/landing/Goggles%20Blue%20Water.jpeg);
+}
+.water .image {
+	background-image:url(../../../../images/artwork/Water%20Splash.jpeg);
+}
+.safety .image {
+	background-image:url(../../../../images/artwork/Dogs%20Running%20Stick%20Water.jpeg);
+}
+.safety {
+	clear: both;
+}
+@media only screen and (min-width : 480px) {
+.image h3 {
+	font-size: 300%;
+	font-weight:700;
+}
+}
+@media only screen and (min-width : 768px) {
+.image h3 {
+	font-size: 350%;
+	font-weight:800;
+}
+}
+@media only screen and (min-width : 992px) {
+.image {
+	border: solid 1px #fff;
+}
+.image h3 {
+	font-size: 400%;
+	font-weight:900;
+}
+    }

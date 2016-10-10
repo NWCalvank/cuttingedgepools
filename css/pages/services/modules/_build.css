@@ -1,0 +1,25 @@
+#build {
+	
+}
+.installation .image {
+	background-image: url(../../../../images/artwork/Sanctuary%20Girl.jpeg)
+}
+.maintenance .image {
+	background-image:url(../../../../images/artwork/Maintenance%20Poolside.jpeg);
+}
+@media only screen and (min-width : 768px) {
+.installation .image {
+	background-position: bottom;
+}
+}
+@media only screen and (min-width : 992px) {
+.installation .image h3 {
+	padding: 280px 0px;
+}
+.installation .image {
+	background-attachment: fixed;
+}
+.maintenance .image h3 {
+	padding: 280px 0px;
+}
+    }

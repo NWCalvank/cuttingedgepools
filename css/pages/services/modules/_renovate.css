@@ -1,0 +1,25 @@
+#renovate {
+	
+}
+.landscape .image {
+	background-image:url(../../../../images/artwork/Boy%20on%20Ledge.jpeg);
+}
+.driveways .image {
+	background-image:url(../../../../images/artwork/Outdated%20Driveway.jpeg);
+}
+.inspiration .image {
+	background-image:url(../../../../images/artwork/Big%20Project.jpg);
+}
+.inspiration {
+	clear: both;
+}
+@media only screen and (min-width : 768px) {
+.inspiration .image p {
+	display: none;
+}
+}
+@media only screen and (min-width : 992px) {
+.inspiration .image h3 {
+	padding: 220px 0px;
+}
+}

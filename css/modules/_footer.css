@@ -1,0 +1,43 @@
+.footer {
+  border-radius: 0;
+  border-top: solid 2px #000;
+}
+.footer .nav {
+  margin-top: 5px;
+}
+.footer-center {
+  clear: both;
+  float: none;
+  margin: auto;
+  padding: 10px 0px 30px 0px;
+  text-align: center;
+  width: 100%;
+}
+.footer-center li a,
+.footer-center li a:hover,
+.footer-center li a:focus {
+  color: #EFEFEF;
+  background-color: transparent;
+}
+.footer-mobile {
+  padding-top: 10px;
+}
+.social li a {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.social img {
+  width: 25px;
+  height: 25px;
+}
+.large-brand {
+  display: none;
+}
+@media (min-width: 480px) {
+.mobile-brand {
+  display: none;
+}
+.large-brand {
+  display: inline;
+}
+}

@@ -1,0 +1,26 @@
+#landscape h2 {
+	font-size: 300%;
+	margin: 10px 0px;
+}
+.walls .image {
+	background-image:url(../../../../images/artwork/Boy%20on%20Ledge.jpeg);
+}
+.concrete .image {
+	background-image:url(../../../../images/artwork/Drawing%20on%20Concrete%20Desaturated.jpeg);
+}
+@media only screen and (min-width : 768px) {
+.walls .image {
+	background-position: bottom;
+}
+}
+@media only screen and (min-width : 992px) {
+.walls .image h3 {
+	padding: 280px 0px;
+}
+.concrete .image {
+	background-attachment: scroll;
+}
+.concrete .image h3 {
+	padding: 280px 0px;
+}
+    }
