@@ -1,7 +1,4 @@
 /* Hero */
-#test {
-	height:300px;
-}
 
 #hero {
 	background-image: url(../../../../images/slides/image4.jpeg);
@@ -31,9 +28,13 @@
 }
 
 .headline h1 {
-	font-size: 140%;
+	font-size: 145%;
 	font-weight: 200;
 	margin: 0px 0px 20px 0px;
+}
+
+#defaultSubheadline {
+	font-weight: 100;
 }
 
 #defaultSubheadline,
@@ -93,6 +94,13 @@
 }
 
 @media only screen and (min-width : 480px) {
+.heroFloat {
+	height: auto;
+	padding: 50px 0px 0px 0px;
+	position: relative;
+	margin: 0px auto;
+	max-width: 75%;
+}
 .headline h1 {
 	font-size: 200%;
 	font-weight: 200;
@@ -131,9 +139,10 @@
 @media only screen and (min-width : 992px) {
 .heroFloat {
 	height: auto;
-	padding: 50px 100px 0px 100px;
+	padding: 50px 0px 0px 0px;
 	position: relative;
 	margin: 0px auto;
+	max-width: 50%;
 }
 
 .headline {
@@ -146,6 +155,7 @@
 .headline h1 {
 	font-size: 400%;
 	font-weight: 200;
+	text-transform: uppercase;
 }
 
 #defaultSubheadline,
@@ -155,7 +165,12 @@
 
 #buttons {
 	display: inline-block;
-	margin: 150px 0px 10px 0px;
+	margin: 150px  10px 0px;
+	width: 100%;
+}
+
+.buttons__container {
+	text-align: center;
 }
 
 #buttons img {
