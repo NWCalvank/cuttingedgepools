@@ -124,7 +124,7 @@
 }
 
 .headline h1 {
-	font-size: 300%;
+	font-size: 250%;
 	font-weight: 200;
 	margin: 0px 0px 30px 0px;
 }
@@ -142,7 +142,7 @@
 	padding: 50px 0px 0px 0px;
 	position: relative;
 	margin: 0px auto;
-	max-width: 50%;
+	max-width: 70%;
 }
 
 .headline {
@@ -153,9 +153,8 @@
 }
 
 .headline h1 {
-	font-size: 400%;
-	font-weight: 200;
-	text-transform: uppercase;
+	font-size: 300%;
+	font-weight: 300;
 }
 
 #defaultSubheadline,
