@@ -1,6 +1,9 @@
 #renovate {
 	margin-top: 20px;
 }
+.image a {
+	cursor: default;
+}
 .landscape .image {
 	background-image:url(../../../../images/artwork/Boy%20on%20Ledge.jpeg);
 }
@@ -13,13 +16,8 @@
 .inspiration {
 	clear: both;
 }
-@media only screen and (min-width : 768px) {
-.inspiration .image p {
-	display: none;
-}
-}
 @media only screen and (min-width : 992px) {
-.inspiration .image h3 {
-	padding: 220px 0px;
+.inspiration .image {
+	height: 450px;
 }
 }

@@ -39,3 +39,7 @@
 	text-decoration: none;
 	text-transform:uppercase;
 }
+.btn-trans:focus {
+	background-color: #5691cb;
+	color: #fff;
+}

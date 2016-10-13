@@ -1,6 +1,9 @@
 #build {
 	margin-top: 20px;
 }
+.image a {
+	cursor: default;
+}
 .installation .image {
 	background-image: url(../../../../images/artwork/Sanctuary%20Girl.jpeg)
 }
@@ -13,13 +16,13 @@
 }
 }
 @media only screen and (min-width : 992px) {
-.installation .image h3 {
-	padding: 280px 0px;
+.installation .image {
+	height: 400px;
 }
 .installation .image {
 	background-attachment: fixed;
 }
-.maintenance .image h3 {
-	padding: 280px 0px;
+.maintenance .image {
+	height: 400px;
 }
     }

@@ -33,3 +33,9 @@ body h3 {
 	font-size: 200%;
 	margin: 5px 0px;
 }
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}

@@ -1,28 +1,32 @@
 .image {
 	background-size: cover;
 	background-position:center;
-	height: auto;
+	display: flex;
+	height: 300px;
 	text-align: center;
 }
 .image a {
 	color: #fff;
 	text-decoration: none;
 }
+.image h1,
 .image h3 {
-	font-size: 120%;
+	font-size: 250%;
 	font-weight:600;
 	text-transform:uppercase;
-	padding: 150px 0px;
-	margin: 0px;
+	margin: auto;
 }
 @media only screen and (min-width : 480px) {
-.image h3 a {
+.image h3 a,
+.image h1 a {
+	font-size: 200%;
 	font-weight:700;
 }
 }
 @media only screen and (min-width : 768px) {
-.image h3 a {
-	font-size: 150%;
+.image h3 a,
+.image h1 a {
+	font-size: 250%;
 	font-weight:800;
 }
 }
@@ -30,7 +34,8 @@
 .image {
 	border: solid 1px #fff;
 }
-.image h3 a {
+.image h3 a,
+.image h1 a {
 	font-size: 200%;
 	font-weight:900;
 }

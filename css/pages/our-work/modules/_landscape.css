@@ -2,6 +2,9 @@
 	font-size: 300%;
 	margin: 10px 0px;
 }
+.image a {
+	cursor: default;
+}
 .walls .image {
 	background-image:url(../../../../images/artwork/Boy%20on%20Ledge.jpeg);
 }
@@ -11,16 +14,11 @@
 @media only screen and (min-width : 768px) {
 .walls .image {
 	background-position: bottom;
+	height: 500px;
 }
 }
 @media only screen and (min-width : 992px) {
-.walls .image h3 {
-	padding: 280px 0px;
-}
 .concrete .image {
-	background-attachment: scroll;
-}
-.concrete .image h3 {
-	padding: 280px 0px;
+	height: 600px;
 }
     }

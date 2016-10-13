@@ -15,19 +15,8 @@
 	text-align:center;
 	margin: 30px 20px;	
 }
-.image {
-	color: #fff;
-	background-size: cover;
-	background-position:center;
-	height: auto;
-	text-align: center;
-}
-.image h3 {
-	font-size: 400%;
-	font-weight:900;
-	text-transform:uppercase;
-	padding: 150px 0px;
-	margin: 0px;
+.image a {
+	cursor: default;
 }
 .business .image {
 	background-image:url(../../../../images/artwork/Macbook%20Glasses%20Mouse.jpg);

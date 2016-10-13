@@ -36,6 +36,7 @@
 }
 .hero-header h3 {
 	font-size: 300%;
+	font-weight: 300;
 }
 .hero img {
 	display: inline;

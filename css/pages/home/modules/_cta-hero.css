@@ -1,28 +1,29 @@
 .cta-hero {
-	border-bottom: solid 2px #525252;
 	text-align: center;
-	background-color: rgba(82,82,82, 0.9);
+	background-color: rgba(82,82,82, 0);
 	margin: 0px 0px 0px 0px;
+	padding-top: 60px;
 }
 @media (min-width: 768px) {
 	.cta-hero {
 	text-align: center;
-	background-color: rgba(82,82,82, 0.9);
+	background-color: rgba(82,82,82, 0);
 	margin: 0px 0px 0px 0px;
+	padding-top: 140px;
 }
 }
 @media (min-width: 992px) {
 	.cta-hero {
-	display: none;
 	text-align: center;
-	background-color: rgba(82,82,82, 0.9);
+	background-color: rgba(82,82,82, 0);
 	margin: 0px 0px 0px 0px;
+	padding-top: 220px;
 }
 }
 @media (min-width: 1200px) {
 	.cta-hero {
 	text-align: center;
-	background-color: rgba(82,82,82, 0.9);
+	background-color: rgba(82,82,82, 0);
 	margin: 0px 0px 0px 0px;
 }
 }

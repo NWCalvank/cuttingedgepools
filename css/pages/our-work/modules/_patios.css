@@ -2,6 +2,9 @@
 	font-size: 300%;
 	margin: 10px 0px;
 }
+.image a {
+	cursor: default;
+}
 .driveways .image {
 	background-image:url(../../../../images/artwork/Driveway%20Red%20Door%20Bicycle.jpeg);
 }
@@ -37,10 +40,5 @@
 @media only screen and (min-width : 768px) {
 .porches .bottom-cta {
 	display: none;
-}
-}
-@media only screen and (min-width : 992px) {
-.porches .image h3 {
-	padding: 220px 0px;
 }
 }

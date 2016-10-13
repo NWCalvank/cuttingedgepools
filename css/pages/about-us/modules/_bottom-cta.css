@@ -23,7 +23,7 @@
 }
 }
 @media only screen and (min-width : 992px) {
-.quality .image h3 {
-	padding: 220px 0px;
+.quality .image {
+	height: 500px;
 }
 }

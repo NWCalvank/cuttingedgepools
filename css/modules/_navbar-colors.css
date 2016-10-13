@@ -1,6 +1,8 @@
 /* Navbar Dropdown on Hover */
+@media (min-width: 768px) {
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
+}
 }
 /* Navbar Cutting Edge Colours */
 .navbar, .navbar-custom {
@@ -60,7 +62,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #5685cb;
 }
 .navbar-custom .navbar-toggle .icon-bar {
   background-color: #EFEFEF;
