@@ -43,7 +43,7 @@
 }
 
 .instagram-posts--slider {
-	height: 260px;
+	height: 310px;
 	width: 1565px;
 }
 
@@ -55,6 +55,29 @@
 	width: 310px;
 }
 
-.instagram-posts__item--slider blockquote {
-	height: 250px;
+.instagram-posts__scroll-indicator--button {
+	border: solid 1px #FFF;
+	border-radius: 30px;
+	padding: 6px 16px 6px 12px;
+	margin-left: 90px;
+	color: #FFF;
+	font-weight: 300;
+}
+
+@media (min-width: 768px) {
+.instagram-posts__scroll-indicator--button {
+	display: none;
+}
+.instagram-posts--slider {
+	height: 260px;
+	width: 1565px;
+}
+
+.instagram-posts__item--slider {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 255px;
+	padding: 5px 5px;
+	width: 310px;
+}
 }
