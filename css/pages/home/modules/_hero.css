@@ -1,7 +1,7 @@
 /* Hero */
 
 #hero {
-	background-image: url(../../../../images/landing/pool_renovation.jpeg);
+	background-image: url(../../../../images/landing/Cutting%20Edge%20Landing%20Pool.jpg);
 	background-size: cover;
 	background-position: center;
 	border-bottom: solid 2px #525252;
@@ -15,7 +15,7 @@
 }
 
 .hero__overlay {
-	background-color: rgba(0,0,0, 0.45);
+	background-color: rgba(0,0,0, 0.75);
 }
 
 .heroFloat {
@@ -37,19 +37,14 @@
 	margin: 0px 0px 20px 0px;
 }
 
-#defaultSubheadline {
-	font-weight: 100;
-}
-
-#defaultSubheadline {
-	font-size: 60%;
-}
-
-
 .headlineContent {
-	border: solid 1px #fff;
-	border-radius: 3px;
-	padding: 50px 0px 50px 0px;
+	font-size: 150%;
+}
+
+.headlineContent h1,
+.headlineContent h3 {
+	color: #EFEFEF;
+	text-shadow: 1px 1px 1px #282828;
 }
 
 @media only screen and (min-width : 480px) {
@@ -58,8 +53,8 @@
 	padding: 50px 0px 0px 0px;
 	position: relative;
 	margin: 0px auto;
-	max-width: 580px;
-	width: 90%;
+/*	max-width: 580px;*/
+/*	width: 90%;*/
 }
 .headline h1 {
 	font-size: 200%;
@@ -79,8 +74,8 @@
 }
 
 .hero-float {
-	max-width: 900px;
-	width: 90%;
+/*	max-width: 900px;*/
+/*	width: 90%;*/
 }
 
 .headline {
@@ -105,7 +100,7 @@
 	padding: 50px 0px 0px 0px;
 	position: relative;
 	margin: 0px auto;
-	max-width: 70%;
+/*	max-width: 70%;*/
 }
 
 .headline {
