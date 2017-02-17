@@ -1,0 +1,98 @@
+.home-hero {
+	background-image:url(/images/artwork/Cutting%20Edge%20Landing%20Pool.jpg);
+	background-position: top;
+	background-size: cover;
+	border-bottom: solid 4px #5691cb;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.home-hero__overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0)); /* Standard syntax */
+}
+.home-hero-header {
+	padding: 10px 0px 10px 0px;
+	color: #EDEDED;
+}
+.home-hero-header h1 {
+	text-shadow: -1px 2px 2px #000;
+	font-size: 300%;
+	font-weight: 200;
+	margin: 5px 0px;
+}
+.home-hero-header h3 {
+	font-size: 200%;
+	text-shadow: -1px 1px 1px #000;
+}
+.home-hero__logo {
+	background-color: rgba(0, 0, 0, 1);
+	border-radius: 50%;
+	border-bottom: solid 4px #5691cb;
+	border-top: solid 4px #fff;
+	border-right: solid 4px #5691cb;
+	border-left: solid 4px #fff;
+	transform: rotate(45deg);
+	/*margin: 200px auto -52px auto;*/
+	margin: 0px auto -52px auto;
+	width: 105px;
+	height: 105px;
+}
+.home-hero img {
+	display: inline;
+	transform: rotate(-45deg);
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+@media only screen and (min-width : 480px) {
+
+}
+@media only screen and (min-width : 768px) {
+.home-hero-header {
+	padding: 10px 0px 10px 0px;
+}
+.home-hero-header h1 {
+	font-size: 400%;
+}
+.home-hero-header h3 {
+	font-size: 300%;
+}
+.home-hero__logo {
+	/*margin: 340px auto -52px auto;*/
+	margin: 0px auto -52px auto;
+	width: 105px;
+	height: 105px;
+}
+.home-hero img {
+	display: inline;
+	transform: rotate(-45deg);
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+}
+@media only screen and (min-width : 992px) {
+.home-hero-header {
+	padding: 10px 0px 10px 0px;
+}
+.home-hero-header h1 {
+	font-size: 500%;
+}
+.home-hero-header h3 {
+	font-size: 300%;
+}
+.home-hero__logo {
+	/*margin: 350px auto -53px auto;*/
+	margin: 0px auto -53px auto;
+}
+    }
+@media only screen and (min-width : 1200px) {
+	.home-hero__logo {
+	margin: 0px auto -53px auto;
+}	
+}

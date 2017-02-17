@@ -1,8 +1,0 @@
-/* Global Styles */
-@import url("../../base/bootstrap.css");
-@import url("../../base/global.css");
-@import url("../../base/theme.css");
-
-/* Page Styles */
-@import url("modules/_heading.css");
-@import url("modules/_info.css");

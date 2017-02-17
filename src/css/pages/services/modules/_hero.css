@@ -1,0 +1,61 @@
+.services-hero {
+	background-image: url(/images/artwork/young%20woman%20arms%20out%20tropical.jpeg);
+	background-position: top;
+	background-size: cover;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.services-hero-header {
+	padding: 10px 0px 10px 0px;
+	color: #fff;
+}
+.services-hero-header h1 {
+	font-size: 400%;
+	font-weight: 200;
+	text-transform:uppercase;
+}
+.services-hero-cta a,
+.services-hero-cta a:hover,
+.services-hero-cta a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+.cta-btn-1 {
+	margin: 180px 0px 20px 0px;
+}
+.services-hero img {
+	display: none;
+}
+@media only screen and (min-width : 768px) {
+.services-hero-header {
+	padding: 10px 0px 10px 0px;
+}
+.services-hero-header h1 {
+	font-size: 600%;
+}
+.services-hero-header h3 {
+	font-size: 300%;
+	font-weight: 300;
+}
+.services-hero img {
+	display: inline;
+	margin: 290px 0px 20px 0px;
+	width: 100px;
+	height: 100px;
+}
+.cta-btn-1 {
+	display: none;
+}
+    }
+@media only screen and (min-width : 992px) {
+.services-hero-header {
+	padding: 10px 0px 10px 0px;
+}
+.services-hero-header h1 {
+	font-size: 700%;
+}
+.services-hero-header h3 {
+	font-size: 300%;
+}
+    }

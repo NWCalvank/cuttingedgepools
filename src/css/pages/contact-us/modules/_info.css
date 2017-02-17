@@ -1,0 +1,57 @@
+.owner,
+.phone,
+.email {
+	margin: 30px;
+}
+.sub-heading h2 {
+	margin: 0px;
+}
+.info {
+	
+}
+.phone .text {
+	float: left;
+}
+.phone .button {
+	text-align: right;
+	text-decoration:none;
+}
+.phone .button a {
+	text-decoration: none;
+	color: #fff;
+}
+.email {
+	clear: both;
+	padding-top: 30px;
+}
+.contact-us {
+	display: flex;
+	flex-wrap: wrap;
+}
+.contact-us__right {
+	display: none;
+}
+@media only screen and (min-width : 768px) {
+.button {
+	display: none;
+}
+.contact-us__left,
+.contact-us__right {
+	display: block;
+	flex: 1;
+	min-width: 250px;
+}
+.contact-us {
+	width: 90%;
+}
+.owner,
+.phone,
+.phone .text,
+.email {
+	float: none;
+	text-align: center;
+}
+.email {
+	padding: 0px;
+}
+    }

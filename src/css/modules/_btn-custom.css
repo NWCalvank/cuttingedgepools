@@ -1,0 +1,67 @@
+.btn-custom {
+	background-color: #5691cb;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.btn-custom:hover {
+	background-color: #3777B5;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+}
+.btn-unique {
+	background-color: #CB9E56;
+}
+.btn-unique:hover {
+	background-color: #A47832;
+}
+.btn-trans {
+	background-color: transparent;
+	border: solid thin #fff;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.btn-trans:hover {
+	background-color: #5691cb;
+	border: solid thin #fff;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.btn-trans:focus {
+	background-color: #5691cb;
+	color: #fff;
+}
+.btn-trans-dark {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: solid thin #fff;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.btn-trans-dark:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	border: solid thin #fff;
+	border-radius: 8px;
+	color: #fff;
+	padding: 16px 20px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.btn-trans-dark:focus {
+	background-color: rgba(0, 0, 0, 1);
+	color: #fff;
+}

@@ -1,0 +1,80 @@
+.image {
+	background-size: cover;
+	background-position:center;
+	cursor: pointer;
+	display: flex;
+	height: 300px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+.color-overlay {
+	background-color: rgba(0,0,0,0.5);
+}
+.image a {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.image p a:hover {
+	color: #aeaeae;
+}
+.image h3 a:hover {
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.image .text-overlay {
+	color: #fff;
+	text-decoration: none;
+}
+.image .image-info {
+	color: #fff;
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.image-info__content {
+	margin: auto;
+}
+.image h1,
+.image h3 {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 250%;
+	font-weight:600;
+	text-transform:uppercase;
+	margin: auto;
+}
+@media only screen and (min-width : 480px) {
+.image h3 .text-overlay,
+.image h1 .text-overlay {
+	font-size: 200%;
+	font-weight:700;
+}
+.image .image-info {
+	font-size: 130%;
+}
+}
+@media only screen and (min-width : 768px) {
+.image h3 .text-overlay,
+.image h1 .text-overlay {
+	font-size: 250%;
+	font-weight:800;
+}
+.image .image-info {
+	font-size: 130%;
+}
+}
+@media only screen and (min-width : 992px) {
+.image {
+	border: solid 1px #fff;
+}
+.image h3 .text-overlay,
+.image h1 .text-overlay {
+	font-size: 200%;
+	font-weight:900;
+}
+.image .image-info {
+	font-size: 130%;
+}
+    }

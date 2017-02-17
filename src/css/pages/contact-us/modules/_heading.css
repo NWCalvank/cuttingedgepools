@@ -1,0 +1,10 @@
+.heading {
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.heading a {
+	cursor: default;
+}
+.heading .image {
+	background-image:url(/images/artwork/Swimmer%20with%20Goggles.jpeg);
+}
