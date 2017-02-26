@@ -8,6 +8,7 @@ require('../css/pages/home/main.css');
 require('../css/pages/liners/main.css');
 require('../css/pages/our-work/main.css');
 require('../css/pages/services/main.css');
+require('../css/pages/show/main.css');
 
 //logic
 let bannerLogic = require('./banner');
