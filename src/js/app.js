@@ -10,7 +10,7 @@ require('../css/pages/our-work/main.css');
 require('../css/pages/services/main.css');
 require('../css/pages/show/main.css');
 
-//logic
+// logic
 let bannerLogic = require('./banner');
 let imageInfo = require('./imageInfo');
 bannerLogic();

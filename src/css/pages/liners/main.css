@@ -1,11 +1,11 @@
 /* Global Styles */
-@import url("../../base/bootstrap.min.css");
-@import url("../../base/global.css");
-@import url("../../base/theme.css");
+@import url('../../base/bootstrap.min.css');
+@import url('../../base/global.css');
+@import url('../../base/theme.css');
 
 /* Page Styles */
-@import url("modules/_hero.css");
-@import url("modules/_second.css");
-@import url("modules/_form.css");
-@import url("modules/_main-content.css");
-@import url("modules/_sidebar.css");
+@import url('modules/_hero.css');
+@import url('modules/_second.css');
+@import url('modules/_form.css');
+@import url('modules/_main-content.css');
+@import url('modules/_sidebar.css');
