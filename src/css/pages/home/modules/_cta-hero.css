@@ -1,34 +1,62 @@
 .cta-hero {
-	text-align: center;
-	background-color: rgba(82,82,82, 0);
-	margin: 0px 0px 0px 0px;
-	padding-top: 100px;
-	padding-bottom: 30px
+  text-align: center;
+  background-color: rgba(82, 82, 82, 0);
+  margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.season-cta-hero {
+  text-align: center;
+  background-color: rgba(82, 82, 82, 0);
+  margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 @media (min-width: 768px) {
-	.cta-hero {
-	text-align: center;
-	background-color: rgba(82,82,82, 0);
-	margin: 0px 0px 0px 0px;
-	padding-top: 250px;
-}
+  .cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 250px;
+  }
+  .season-cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 50px;
+  }
 }
 @media (min-width: 992px) {
-	.cta-hero {
-	text-align: center;
-	background-color: rgba(82,82,82, 0);
-	margin: 0px 0px 0px 0px;
-	padding-top: 300px;
-}
+  .cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 300px;
+  }
+  .season-cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 50px;
+  }
 }
 @media (min-width: 1200px) {
-	.cta-hero {
-	text-align: center;
-	background-color: rgba(82,82,82, 0);
-	margin: 0px 0px 0px 0px;
-	padding-top: 350px;
-}
+  .cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 350px;
+  }
+  .season-cta-hero {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0);
+    margin: 0px 0px 0px 0px;
+    padding-top: 50px;
+  }
 }
 .cta-hero .btn {
-	margin: 20px;
+  margin: 20px;
+}
+.season-cta-hero .btn {
+  margin: 20px;
 }

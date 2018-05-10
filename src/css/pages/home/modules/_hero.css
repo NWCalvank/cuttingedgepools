@@ -1,26 +1,47 @@
 /* temporary season-kick-off video hero */
 .season-hero {
-  display: none; /* WIP */
-  height: auto;
-  margin: 50px 0px 0px 0px;
+  display: none;
   text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 .season-hero-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.season-hero__overlay {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-}
-.season-hero img {
-  display: inline;
-  transform: rotate(-45deg);
-  padding: 10px;
-  width: 100px;
-  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -webkit-linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  ); /* Standard syntax */
+  border-bottom: solid 2px #275480;
 }
 /* resume regular settings */
 .home-hero {
+  display: block;
   background-image: url(/images/artwork/Cutting%20Edge%20Landing%20Pool.jpg);
   background-position: top;
   background-size: cover;
@@ -50,18 +71,11 @@
   ); /* Standard syntax */
 }
 .home-hero-header {
-  padding: 10px 0px 10px 0px;
-  color: #ededed;
+  padding: 10px 0px 0px 0px;
 }
-.home-hero-header h1 {
-  text-shadow: -1px 2px 2px #000;
-  font-size: 300%;
-  font-weight: 200;
-  margin: 5px 0px;
-}
-.home-hero-header h3 {
-  font-size: 200%;
-  text-shadow: -1px 1px 1px #000;
+.home-hero-header img {
+  height: 150px;
+  opacity: 0.4;
 }
 .home-hero__logo {
   background-color: rgba(0, 0, 0, 1);
@@ -76,7 +90,7 @@
   width: 105px;
   height: 105px;
 }
-.home-hero img {
+.home-hero__logo img {
   display: inline;
   transform: rotate(-45deg);
   padding: 10px;
@@ -84,13 +98,17 @@
   height: 100px;
 }
 @media only screen and (min-width: 480px) {
+  .home-hero-header img {
+    height: 200px;
+    opacity: 0.4;
+  }
 }
 @media only screen and (min-width: 768px) {
+  .home-hero {
+    display: none;
+  }
   .home-hero-header {
     padding: 10px 0px 10px 0px;
-  }
-  .home-hero-header h1 {
-    font-size: 400%;
   }
   .home-hero-header h3 {
     font-size: 300%;
@@ -101,20 +119,25 @@
     width: 105px;
     height: 105px;
   }
-  .home-hero img {
+  .home-hero__logo img {
     display: inline;
     transform: rotate(-45deg);
     padding: 10px;
     width: 100px;
     height: 100px;
   }
+  .season-hero {
+    display: block;
+  }
+  .season-hero img {
+    height: 300px;
+    padding: 60px 0px 0px 0px;
+    opacity: 0.4;
+  }
 }
 @media only screen and (min-width: 992px) {
   .home-hero-header {
     padding: 10px 0px 10px 0px;
-  }
-  .home-hero-header h1 {
-    font-size: 500%;
   }
   .home-hero-header h3 {
     font-size: 300%;
@@ -123,9 +146,19 @@
     /*margin: 350px auto -53px auto;*/
     margin: 0px auto -53px auto;
   }
+  .season-hero img {
+    height: 400px;
+    padding: 100px 0px 0px 0px;
+    opacity: 0.4;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .home-hero__logo {
     margin: 0px auto -53px auto;
+  }
+  .season-hero img {
+    height: 500px;
+    padding: 200px 0px 0px 0px;
+    opacity: 0.4;
   }
 }
