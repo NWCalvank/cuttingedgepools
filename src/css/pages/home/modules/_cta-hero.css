@@ -1,11 +1,8 @@
 .home-cta-hero {
   text-align: center;
-  background-color: rgba(82, 82, 82, 0);
-  margin: 0px 0px 0px 0px;
 }
 .home-cta-hero .btn {
   display: none;
-  font-size: 12px;
 }
 @media (min-width: 480px) {
 }
@@ -18,9 +15,7 @@
 }
 @media (min-width: 992px) {
   .home-cta-hero .btn {
-    display: inline-block;
     font-size: 18px;
-    margin-right: 20px;
   }
 }
 @media (min-width: 1200px) {
