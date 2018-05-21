@@ -1,39 +1,39 @@
 .instagram-posts {
-	background-color: #5691CB;
-	margin: 0 auto;
-	width: 100%;
+  background-color: #5691cb;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .instagram-posts__item {
-	padding: 5px 5px;
+  padding: 5px 5px;
 }
 
 .instagram-posts__item blockquote {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .instagram-posts__item--second,
 .instagram-posts__item--third {
-	display: none;
+  display: none;
 }
 
 @media (min-width: 480px) {
-	.instagram-posts__item {
-		padding: 10px 10px;
-	}
+  .instagram-posts__item {
+    padding: 10px 10px;
+  }
 }
 
 @media (min-width: 768px) {
-	.instagram-posts__item {
-		padding: 10px 5px;
-	}
-	.instagram-posts__item--second {
-		display: block;
-	}
+  .instagram-posts__item {
+    padding: 10px 5px;
+  }
+  .instagram-posts__item--second {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
-	.instagram-posts__item--third {
-	display: block;
-}
+  .instagram-posts__item--third {
+    display: block;
+  }
 }
